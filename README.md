@@ -2,7 +2,10 @@
 
 ## Description
 
-Manage a company's employee database, using Node.js, Inquirer, and PostgreSQL.
+The backend of e-commerce titan, E-Commerce.
+
+[Video of the application in action](URL.com)
+
 
 ## Table of Contents (Optional)
 
@@ -16,19 +19,18 @@ Manage a company's employee database, using Node.js, Inquirer, and PostgreSQL.
 
 ## Installation
 
-npm install inquirer@8.2.4
-https://www.npmjs.com/package/inquirer/v/8.2.4
+[npm install inquirer@8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
 
-npm install pg@8.11.5
-https://www.npmjs.com/package/pg/v/8.11.5
+[npm install pg@8.11.5](https://www.npmjs.com/package/pg/v/8.11.5)
+
+[npm install dotenv](https://www.npmjs.com/package/dotenv)
+
+[npm install sequelize](https://www.npmjs.com/package/sequelize)
 
 ## Usage
 
-A webapp to view and manage the departments, roles, and employees in a company
-so you can organize and plan your business
+A working Express.js API and configured to use Sequelize to interact with a PostgreSQL database.
 
-The following link is a recording of the application being used,
-https://drive.google.com/file/d/11sGLQo_b4wIsPhhudit_mjaEg-UlqzUV/view?usp=sharing
 
 ## Credits
 
@@ -43,22 +45,22 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Badges
 
-![MIT License](https://img.shields.io/badge/License-MIT-darkgreen)
+![MIT License](https://img.shields.io/badge/License-MIT-purple)
 
 ![NPM Inquirer](https://img.shields.io/badge/NPM-INQUIRER-darkblue)
 
 ![NPM PG](https://img.shields.io/badge/NPM-PG-lightblue)
 
+![NPM Dotenv](https://img.shields.io/badge/NPM-dotenv-darkyellow)
+
+![NPM Sequelize](https://img.shields.io/badge/NPM-Sequelize-lightgreen)
+
 ![GitHub](https://img.shields.io/badge/GitHub-black)
 
-(https://shields.io/)
+[Shields.io, Badges Source](https://shields.io/)
 
 ## How to Contribute
 
-You can contribute via the following GitHub link.
+You can contribute by following this [GitHub link](https://github.com/winpom/ecommerce-backend).
 
-https://github.com/winpom/ecommerce-backend 
-
-Clone the repo and request a merg via push of your contributions. If you have further questions please email me at 
-
-win.pomerantz@gmail.com
+Clone the repo and request a merg via push of your contributions. If you have further questions please email me at: win.pomerantz@gmail.com
