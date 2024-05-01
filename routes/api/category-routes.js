@@ -34,10 +34,8 @@ router.get('/:id', async (req, res) => {
   // create a new category
 router.post('/', async (req, res) => {
   try {
-    const categoryData = await Category.create({
-      product_id: req.body.product_id,
-    });
-    res.status(200).json(categoryData);
+    const newCategoryData = await Category.create(req.body);
+    res.status(200).json(newCategoryData);
   } catch (err) {
     res.status(400).json(err);
   }
@@ -69,15 +67,9 @@ router.put('/:id', async (req, res) => {
           id: req.params.id,
         },
       });
-  
-      if (!categoryData) {
-        res.status(404).json({ message: 'No category found with that id!' });
-        return;
-      }
-  
       res.status(200).json(categoryData);
     } catch (err) {
-      res.status(500).json(err);
+      res.status(400).json(err);
     }
   });
 
