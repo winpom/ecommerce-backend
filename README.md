@@ -4,7 +4,7 @@
 
 The backend of e-commerce titan, E-Commerce.
 
-[Video of the application in action](URL.com)
+[Video of the application in action](https://drive.google.com/file/d/1-Fmio0fY5_-eieXmfY60aH1wFEdkT8IF/view?usp=sharing)
 
 
 ## Table of Contents (Optional)
